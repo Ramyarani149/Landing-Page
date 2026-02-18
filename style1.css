@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: rgb(255, 255, 255);
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px 30px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #cd5ab8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #e06dcb;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #ad448d, #82b2d3);
+    text-align: center;
+    padding: 120px 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 15px;
+}
+
+.hero button {
+    margin-top: 25px;
+    padding: 12px 30px;
+    border: none;
+    background: #da36c9;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -70px;
+    padding-bottom: 60px;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(210, 99, 171, 0.1);
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about p {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background: #64b2e0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
